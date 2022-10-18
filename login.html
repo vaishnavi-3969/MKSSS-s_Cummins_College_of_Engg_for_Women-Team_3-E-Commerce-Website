@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    form {
+      width: 55%;
+    }
+
+    button {
+      background: #17a2b8;
+      color: #fff;
+      width: 25%;
+
+      padding: 20px;
+      margin: 10px 0px;
+      border: none;
+      cursor: pointer;
+      border-radius: 40px;
+    }
+
+    button:hover {
+      cursor: pointer;
+      background: #39dc79;
+      color: #000;
+    }
+
+    form {
+      border: 3px solid #f1f1f1;
+    }
+
+    input[type=password],
+    input[type=email] {
+      width: 75%;
+      margin: 8px 0;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 2px solid green;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      opacity: 0.7;
+    }
+
+    h1 {
+      font-size: 40px;
+      text-shadow: 0 0 3px #FF0000;
+    }
+
+    .container {
+      padding: 25px;
+      background-color: lightblue;
+    }
+
+    x-sizing: border-box;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Login page </title>
+
+<body style="background:linear-gradient(#bdc3c7,#2c3e50)">
+  <center>
+    <h1> Customer Login </h1>
+  </center>
+  <center>
+    <form>
+      <div>
+        <img src="ecommerce-1.jpg" width="600px" height="300px" />
+      </div>
+      <div class="container">
+        <label>Username : </label>
+        <input type="email" name="email" id="email" placeholder="Enter your valid email" class="formcontrol"
+          required="true" required> <br>
+        <label>Password : </label>
+        <input type="password" id="password" placeholder="Enter your password" name="password" required>
+        <br>
+
+        <center> <button type="submit" value="Submit form">Submit</button>
+          <script type="text/javascript">
+            function myFunction() {
+              alert("Registration Successfull");
+            }
+          </script>
+      </div>
+    </form>
+  </center>
+</body>
+
+</html>
